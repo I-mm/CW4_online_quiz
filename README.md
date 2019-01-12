@@ -8,6 +8,7 @@
 
   <br>
 
+
 ## Configuration
 
 - Server: 1 Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz, RAM 2GB, Ubuntu 16.04
@@ -147,6 +148,12 @@ This website TMP (Test Make Perfect) is an online English testing platform. User
 
 
 ![Figure14](Figures/Figure14.png)
+
+<br>
+
+## Flowchart
+
+![Figures/Online_Exam.png](Figures/Online_Exam.png)
 
 <br>
 
