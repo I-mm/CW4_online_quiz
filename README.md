@@ -1,6 +1,6 @@
 # A website for online exam
 
-- All codes are available on https://github.com/I-mm/OnlineExam
+- All codes are available on https://github.com/I-mm/CW4_online_quiz
 
 - Meanwhile, it is also deployed on a server provided by [Aliyun](https://cn.aliyun.com/), and you can access this system on http://www.youhear.me:8080/ (Or directly IP address: http://39.105.165.114:8080/). *(**Note:** The server will expire at the end of Jan, 2019, and the domain name provided in the GitHub Student Developer Pack will also expire at Mar, 2019, so it may be not available after that time.)*
 
