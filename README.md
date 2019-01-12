@@ -2,15 +2,15 @@
 
 - All codes are available on https://github.com/I-mm/OnlineExam
 
-- Meanwhile, it is also deployed on a server provided by [Aliyun](https://cn.aliyun.com/), and you can access this system on http://www.youhear.me:8080/ (Or directly IP address: http://39.105.165.114:8080/). *(**Note:** The server will expire at the end of Jan, 2019, and the domain name is provided in the GitHub Student Developer Pack which will also expire at Mar, 2019, so it may be not available after that time.)*
+- Meanwhile, it is also deployed on a server provided by [Aliyun](https://cn.aliyun.com/), and you can access this system on http://www.youhear.me:8080/ (Or directly IP address: http://39.105.165.114:8080/). *(**Note:** The server will expire at the end of Jan, 2019, and the domain name provided in the GitHub Student Developer Pack will also expire at Mar, 2019, so it may be not available after that time.)*
 
   <br>
 
 ## Configuration
 
 - Server: 1 Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz, RAM 2GB, Ubuntu 16.04
-- Container: Apache Tomcat
-- Database: MySQL
+- Container: Apache Tomcat 9.0.13
+- Database: MySQL Ver 14.14 Distrib 5.7.24, for Linux (x86_64) using  EditLine wrapper
 
 <br>
 
@@ -42,12 +42,14 @@ This website TMP (Test Make Perfect) is an online English testing platform. User
 
    Before starting the exam, the user can set the score threshold as his wishes by clicking the element, whose default value is 60.
    
+
 ![Figure3](Figures/Figure3.png)
 
 4. Logic of the first attempt
 
    When user start an exam, the backend will select the questions randomly from the database and generate the test page. Users are required to select the correct answer and complete the test within the specified time. If the user finish the test in time and submit, the website will turn to the exam report page. 
    
+
 ![Figure4](Figures/Figure4.png)
 
 5. Re-exam logic 
@@ -80,26 +82,28 @@ This website TMP (Test Make Perfect) is an online English testing platform. User
 
    This is the first page of TMP. In this page, users can enter the username and password to login. If don’t have an account, users can click the button named ‘Create an account’ and jump to another page to complete register.
    
+
 ![Figure7](Figures/Figure8.png)
 
 2. Register
 
    In this page, users can enter the Corresponding information and agree our terms and policy to finish register. After that, users can back to the last page to login.
 
-   
+
 ![Figure9](Figures/Figure9.png)
 
 3. Home page
 
    When user entering the home page of TMP, they can see the following page which contains the user’s personal information, the start-test button, the watch-report button and the other blocks in our website.
-   
-   
+
+
 ![Figure10](Figures/Figure10.png)
 
 4. Set the score threshold
 
    After clicking the *Start a New Exam* button, users can see a modal box where can set the pass line by clicking the round. 
-      
+   
+
 ![Figure11](Figures/Figure11.png)
 
 5. Exam page
@@ -107,17 +111,27 @@ This website TMP (Test Make Perfect) is an online English testing platform. User
    When user start an exam, the backend will select the questions randomly from the database and generate the test page. Users are required to complete the test within the specified time. If the user fails to complete the first test within the specified time, we will give another chance. 
    
      
+
 ![Figure12](Figures/Figure12.png)
 
 6. Exam report page
 
    In this page, users can see the mark, the exam time and so on. Following the summary, users can see the user’s answer and the correct answer.
-      
+   
+
 ![Figure13](Figures/Figure13.png)
 
 7. Previous report page
 
    Users can view their previous report by clicking the *My Previous Exam Report* button. In this page, users can see some information and Statistics from previous exams.
 
-   
+
 ![Figure14](Figures/Figure14.png)
+
+
+
+
+
+## Group Member
+
+赵屹铭，赵春宇，井长源，张丙驰，夏昕
